@@ -1,25 +1,36 @@
-title: Fractal
-baseURL: /
+title: Fractal 1
 params:
+  footer:
+    copyright: '&copy; Untitled.'
+    social_icons:
+      - icon: fa-facebook
+        title: Facebook
+        url: '#'
+      - icon: fa-twitter
+        title: Twitter
+        url: '#'
+      - icon: fa-instagram
+        title: Instagram
+        url: '#'
   header:
-    title_url: '#'
-    subtitle: |-
-      Nibh sed aliquam, cursus arcu aliquet  
-      natoque rhoncus ut non in Aliquet
     actions:
-      - label: Download
-        icon: fa-download
-        url: elements.md
+      - icon: fa-download
         is_primary: true
         is_scrolly: false
-      - label: Learn More
-        icon: fa-chevron-down
-        url: '#one'
+        label: Download
+        url: elements.md
+      - icon: fa-chevron-down
         is_primary: false
         is_scrolly: true
+        label: Learn More
+        url: '#one'
     img:
       path: images/screen.jpg
       phone_border: true
+    subtitle: |-
+      Nibh sed aliquam, cursus arcu aliquet  
+      natoque rhoncus ut non in Aliquet
+    title_url: '#'
   palette: blue
   palettes:
     blue:
@@ -31,17 +42,3 @@ params:
     purple:
       sass:
         color: '#786dc2'
-  footer:
-    social_icons:
-      - title: Facebook
-        icon: fa-facebook
-        url: '#'
-      - title: Twitter
-        icon: fa-twitter
-        url: '#'
-      - title: Instagram
-        icon: fa-instagram
-        url: '#'
-    copyright: '&copy; Untitled.'
-disableKinds:
-  - RSS
