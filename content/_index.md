@@ -1,74 +1,75 @@
 ---
 title: Home
 sections:
-  - title: |-
+  - background_style: style2
+    component: icons.html
+    icons:
+      - icon: fa-camera-retro
+        title: Shoot
+      - icon: fa-refresh
+        title: Process
+      - icon: fa-cloud
+        title: Upload
+    identifier: icons
+    section_id: one
+    title: |-
       Sed ipsum magna lorem tempus amet
       vehicula et gravida elementum
-    section_id: one
-    background_style: style2
-    icons:
-      - title: Shoot
-        icon: fa-camera-retro
-      - title: Process
-        icon: fa-refresh
-      - title: Upload
-        icon: fa-cloud
-    identifier: icons
-    component: icons.html
     type: icons
-  - section_id: two
-    spotlights:
-      - title: Magna sed ultrices
-        text: >-
-          Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum
-          elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In
-          convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.
-        image: images/pic01.jpg
-      - title: Ultrices nullam aliquam
-        text: >-
-          Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum
-          elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In
-          convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.
-        image: images/pic02.jpg
-      - title: Aliquam sed magna
-        text: >-
-          Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum
-          elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In
-          convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.
-        image: images/pic03.jpg
+  - component: spotlights.html
     icons:
-      - title: Ipsum lorem accumsan
-        icon: fa-camera-retro
-      - title: Sed vehicula elementum
-        icon: fa-refresh
-      - title: Elit fusce consequat
-        icon: fa-cloud
-      - title: Lorem nullam tempus
-        icon: fa-code
-      - title: Adipiscing amet sapien
-        icon: fa-desktop
+      - icon: fa-camera-retro
+        title: Ipsum lorem accumsan
+      - icon: fa-refresh
+        title: Sed vehicula elementum
+      - icon: fa-cloud
+        title: Elit fusce consequat
+      - icon: fa-code
+        title: Lorem nullam tempus
+      - icon: fa-desktop
+        title: Adipiscing amet sapien
     identifier: spotlights
-    component: spotlights.html
+    section_id: two
+    spotlights:
+      - image: images/pic01.jpg
+        text: >-
+          Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum
+          elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In
+          convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.
+        title: Magna sed ultrices
+      - image: images/pic02.jpg
+        text: >-
+          Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum
+          elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In
+          convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.
+        title: Ultrices nullam aliquam
+      - image: images/pic03.jpg
+        text: >-
+          Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum
+          elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In
+          convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.
+        title: FOO Aliquam sed magna
     type: spotlights
-  - title: Magna leo sapien gravida
+  - actions:
+      - icon: fa-download
+        is_primary: true
+        is_scrolly: false
+        label: Download
+        url: '#'
+      - icon: null
+        is_primary: false
+        is_scrolly: false
+        label: Learn More
+        url: elements.md
+    background_style: style2
+    component: cta.html
+    identifier: cta
+    section_id: three
     subtitle: |-
       Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula  
       lectus ultricies eu. In convallis amet leo sapien iaculis efficitur.
-    section_id: three
-    background_style: style2
-    actions:
-      - label: Download
-        url: '#'
-        is_primary: true
-        is_scrolly: false
-        icon: fa-download
-      - label: Learn More
-        url: elements.md
-        is_primary: false
-        is_scrolly: false
-        icon: null
-    identifier: cta
-    component: cta.html
+    title: Magna leo sapien gravida
     type: cta
 layout: home
 ---
+
